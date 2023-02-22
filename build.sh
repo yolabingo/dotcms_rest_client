@@ -1,10 +1,12 @@
 #!/bin/bash
 export DOTCMS_OPENAPI_GENERATED="$(pwd)/openapi_generated"
 pushd /var/tmp
-git clone https://github.com/OpenAPITools/openapi-generator.git --depth 1
-cd openapi-generator
-mvn clean package
-
+if [ ! -f openapi-generator/modules/openapi-generator-cli/target/openapi-generator-cli.jar ]
+then
+    git clone https://github.com/OpenAPITools/openapi-generator.git --depth 1
+    cd openapi-generator
+    mvn clean package
+fi
 # fetch dotcms openapi spec
 curl -o dotcms_openapi.yaml https://dotcms-qa-lts2301.dotcms.site/api/openapi.yaml
 
