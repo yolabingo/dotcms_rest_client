@@ -1,11 +1,11 @@
 # dotcms_rest_client
-DotCMS python rest client, from openapi-generator https://github.com/openapitools/openapi-generator
+DotCMS python rest client, from [openapi-generator](https://github.com/openapitools/openapi-generator)
 
 ## Docs
-https://github.com/yolabingo/dotcms_rest_client/tree/main/openapi_generated/docs 
+[Generated docs](https://github.com/yolabingo/dotcms_rest_client/tree/main/openapi_generated/docs)
 
 ## Install locally
-pip install https://github.com/yolabingo/dotcms_rest_client/blob/main/dist/dotcms_rest_client-23.1-py3-none-any.whl?raw=true
+`pip install https://github.com/yolabingo/dotcms_rest_client/blob/main/dist/dotcms_rest_client-23.1-py3-none-any.whl?raw=true`
 
 To build/update this library
 ```bash
