@@ -11,7 +11,5 @@ DotCMS python rest client, from [openapi-generator](https://github.com/openapito
 ```bash
 git clone git@github.com:yolabingo/dotcms_rest_client.git
 cd dotcms_rest_client/openapi_generated
+bash build.sh
 ```
-then
-
-`bash build.sh`
