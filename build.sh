@@ -6,7 +6,7 @@ cd openapi-generator
 mvn clean package
 
 # fetch dotcms openapi spec
-curl -o dotcms_openapi.yaml https://dotcms-qa-lts2301.dotcms.site/api/openapi.yamlS
+curl -o dotcms_openapi.yaml https://dotcms-qa-lts2301.dotcms.site/api/openapi.yaml
 
 # generate python client
 java -jar modules/openapi-generator-cli/target/openapi-generator-cli.jar \
