@@ -1,11 +1,14 @@
-git clone git@github.com:yolabingo/dotcms_rest_client.git
-cd dotcms_rest_client
+#!/bin/bash
 export DOTCMS_OPENAPI_GENERATED="$(pwd)/openapi_generated"
 pushd /var/tmp
 git clone https://github.com/OpenAPITools/openapi-generator.git --depth 1
 cd openapi-generator
-mvn clean package 
-curl -o dotcms_openapi.yaml https://dotcms-qa-lts2301.dotcms.site/api/openapi.yaml
+mvn clean package
+
+# fetch dotcms openapi spec
+curl -o dotcms_openapi.yaml https://dotcms-qa-lts2301.dotcms.site/api/openapi.yamlS
+
+# generate python client
 java -jar modules/openapi-generator-cli/target/openapi-generator-cli.jar \
     generate \
     --skip-validate-spec \
@@ -14,5 +17,14 @@ java -jar modules/openapi-generator-cli/target/openapi-generator-cli.jar \
     --api-package dotcms_rest_client \
     --package-name dotcms_rest_client \
     -o $DOTCMS_OPENAPI_GENERATED
-cd $DOTCMS_OPENAPI_GENERATED && python setup.py bdist_wheel && pip wheel --no-deps -w ../dist .
-
+cd /var/tmp
+# create python venv
+python -m venv dotcms_openapi_generated
+. dotcms_openapi_generated/bin/activate
+pip install -U pip
+pip install wheel
+cd $DOTCMS_OPENAPI_GENERATED
+python setup.py bdist_wheel
+pip wheel --no-deps -w ../dist . && rm -rf build dist
+deactivate
+pushd
