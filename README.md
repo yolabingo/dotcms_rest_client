@@ -1,5 +1,9 @@
 # dotcms_rest_client
-DotCMS python rest client, from [openapi-generator](https://github.com/openapitools/openapi-generator)
+DotCMS python rest client, from openapi-generator
+
+https://openapi-generator.tech/
+
+https://github.com/openapitools/openapi-generator
 
 ## Docs
 [Generated docs](https://github.com/yolabingo/dotcms_rest_client/tree/main/openapi_generated/docs)
