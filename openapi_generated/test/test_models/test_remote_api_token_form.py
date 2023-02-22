@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.remote_api_token_form import RemoteAPITokenForm
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.remote_api_token_form import RemoteAPITokenForm
+from openapi_client import configuration
 
 
 class TestRemoteAPITokenForm(unittest.TestCase):

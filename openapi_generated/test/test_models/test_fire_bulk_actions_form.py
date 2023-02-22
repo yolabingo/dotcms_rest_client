@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.fire_bulk_actions_form import FireBulkActionsForm
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.fire_bulk_actions_form import FireBulkActionsForm
+from openapi_client import configuration
 
 
 class TestFireBulkActionsForm(unittest.TestCase):

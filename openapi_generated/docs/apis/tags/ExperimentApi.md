@@ -1,5 +1,5 @@
 <a name="__pageTop"></a>
-# dotcms_rest_client.dotcms_rest_client.tags.experiment_api.ExperimentApi
+# dotcms_rest_client.apis.tags.experiment_api.ExperimentApi
 
 All URIs are relative to */api*
 
@@ -29,7 +29,7 @@ Method | HTTP request | Description
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import experiment_api
+from dotcms_rest_client.apis.tags import experiment_api
 from dotcms_rest_client.model.response_entity_single_experiment_view import ResponseEntitySingleExperimentView
 from dotcms_rest_client.model.add_variant_form import AddVariantForm
 from pprint import pprint
@@ -148,7 +148,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import experiment_api
+from dotcms_rest_client.apis.tags import experiment_api
 from dotcms_rest_client.model.response_entity_experiment_view import ResponseEntityExperimentView
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -240,7 +240,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import experiment_api
+from dotcms_rest_client.apis.tags import experiment_api
 from dotcms_rest_client.model.response_entity_single_experiment_view import ResponseEntitySingleExperimentView
 from dotcms_rest_client.model.experiment_form import ExperimentForm
 from pprint import pprint
@@ -370,7 +370,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import experiment_api
+from dotcms_rest_client.apis.tags import experiment_api
 from dotcms_rest_client.model.response_entity_view_string import ResponseEntityViewString
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -462,7 +462,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import experiment_api
+from dotcms_rest_client.apis.tags import experiment_api
 from dotcms_rest_client.model.response_entity_single_experiment_view import ResponseEntitySingleExperimentView
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -554,7 +554,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import experiment_api
+from dotcms_rest_client.apis.tags import experiment_api
 from dotcms_rest_client.model.response_entity_single_experiment_view import ResponseEntitySingleExperimentView
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -655,7 +655,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import experiment_api
+from dotcms_rest_client.apis.tags import experiment_api
 from dotcms_rest_client.model.response_entity_single_experiment_view import ResponseEntitySingleExperimentView
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -756,7 +756,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import experiment_api
+from dotcms_rest_client.apis.tags import experiment_api
 from dotcms_rest_client.model.response_entity_single_experiment_view import ResponseEntitySingleExperimentView
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -848,7 +848,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import experiment_api
+from dotcms_rest_client.apis.tags import experiment_api
 from dotcms_rest_client.model.response_entity_single_experiment_view import ResponseEntitySingleExperimentView
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -940,7 +940,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import experiment_api
+from dotcms_rest_client.apis.tags import experiment_api
 from dotcms_rest_client.model.excluded_experiment_list_form import ExcludedExperimentListForm
 from dotcms_rest_client.model.response_entity_experiment_selected_view import ResponseEntityExperimentSelectedView
 from pprint import pprint
@@ -1024,7 +1024,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import experiment_api
+from dotcms_rest_client.apis.tags import experiment_api
 from dotcms_rest_client.model.response_entity_experiment_view import ResponseEntityExperimentView
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -1142,7 +1142,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import experiment_api
+from dotcms_rest_client.apis.tags import experiment_api
 from dotcms_rest_client.model.response_entity_single_experiment_view import ResponseEntitySingleExperimentView
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -1234,7 +1234,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import experiment_api
+from dotcms_rest_client.apis.tags import experiment_api
 from dotcms_rest_client.model.response_entity_single_experiment_view import ResponseEntitySingleExperimentView
 from dotcms_rest_client.model.experiment_form import ExperimentForm
 from pprint import pprint

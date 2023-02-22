@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.delete_pp_queue_elements_by_identifier_form import DeletePPQueueElementsByIdentifierForm
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.delete_pp_queue_elements_by_identifier_form import DeletePPQueueElementsByIdentifierForm
+from openapi_client import configuration
 
 
 class TestDeletePPQueueElementsByIdentifierForm(unittest.TestCase):

@@ -1,5 +1,5 @@
 <a name="__pageTop"></a>
-# dotcms_rest_client.dotcms_rest_client.tags.navigation_api.NavigationApi
+# dotcms_rest_client.apis.tags.navigation_api.NavigationApi
 
 All URIs are relative to */api*
 
@@ -17,7 +17,7 @@ Method | HTTP request | Description
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import navigation_api
+from dotcms_rest_client.apis.tags import navigation_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.

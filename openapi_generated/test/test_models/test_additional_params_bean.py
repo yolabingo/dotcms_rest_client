@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.additional_params_bean import AdditionalParamsBean
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.additional_params_bean import AdditionalParamsBean
+from openapi_client import configuration
 
 
 class TestAdditionalParamsBean(unittest.TestCase):

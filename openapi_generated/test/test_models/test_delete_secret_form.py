@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.delete_secret_form import DeleteSecretForm
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.delete_secret_form import DeleteSecretForm
+from openapi_client import configuration
 
 
 class TestDeleteSecretForm(unittest.TestCase):

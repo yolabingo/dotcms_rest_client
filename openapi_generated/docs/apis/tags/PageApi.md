@@ -1,5 +1,5 @@
 <a name="__pageTop"></a>
-# dotcms_rest_client.dotcms_rest_client.tags.page_api.PageApi
+# dotcms_rest_client.apis.tags.page_api.PageApi
 
 All URIs are relative to */api*
 
@@ -28,7 +28,7 @@ Method | HTTP request | Description
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import page_api
+from dotcms_rest_client.apis.tags import page_api
 from dotcms_rest_client.model.page_container_form import PageContainerForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -165,7 +165,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import page_api
+from dotcms_rest_client.apis.tags import page_api
 from dotcms_rest_client.model.copy_contentlet_form import CopyContentletForm
 from dotcms_rest_client.model.response_entity_view_map_string_object import ResponseEntityViewMapStringObject
 from pprint import pprint
@@ -253,7 +253,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import page_api
+from dotcms_rest_client.apis.tags import page_api
 from dotcms_rest_client.model.response_entity_view_map_string_object import ResponseEntityViewMapStringObject
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -339,7 +339,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import page_api
+from dotcms_rest_client.apis.tags import page_api
 from dotcms_rest_client.model.response_entity_view_list_mulitree_view import ResponseEntityViewListMulitreeView
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -431,7 +431,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import page_api
+from dotcms_rest_client.apis.tags import page_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -543,7 +543,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import page_api
+from dotcms_rest_client.apis.tags import page_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -709,7 +709,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import page_api
+from dotcms_rest_client.apis.tags import page_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -848,7 +848,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import page_api
+from dotcms_rest_client.apis.tags import page_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -987,7 +987,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import page_api
+from dotcms_rest_client.apis.tags import page_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -1099,7 +1099,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import page_api
+from dotcms_rest_client.apis.tags import page_api
 from dotcms_rest_client.model.page_form import PageForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -1215,7 +1215,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import page_api
+from dotcms_rest_client.apis.tags import page_api
 from dotcms_rest_client.model.page_form import PageForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -1361,7 +1361,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import page_api
+from dotcms_rest_client.apis.tags import page_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.

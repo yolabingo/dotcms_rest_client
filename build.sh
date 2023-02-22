@@ -26,9 +26,12 @@ java -jar modules/openapi-generator-cli/target/openapi-generator-cli.jar \
     --skip-validate-spec \
     -i  dotcms_openapi.yaml \
     -g python \
-    --api-package dotcms_rest_client \
     --package-name dotcms_rest_client \
     -o $DOTCMS_OPENAPI_GENERATED
+
+# --package-name dotcms_rest_client \
+# --api-package dotcms_rest_client \
+
 cd /var/tmp
 # create python venv
 python -m venv dotcms_openapi_generated
@@ -36,6 +39,9 @@ python -m venv dotcms_openapi_generated
 pip install -U pip
 pip install wheel
 cd $DOTCMS_OPENAPI_GENERATED
+
+## TODO: find and fix this in the python openapi-generator template
+# touch openapi_generated/dotcms_rest_client/dotcms_rest_client/tags/__init__.py
 
 sed -i '' 's/No description provided/DotCMS Rest Client/' setup.py
 sed -i '' 's/No description provided/DotCMS Rest Client/' README.md

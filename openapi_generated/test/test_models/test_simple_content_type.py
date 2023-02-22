@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.simple_content_type import SimpleContentType
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.simple_content_type import SimpleContentType
+from openapi_client import configuration
 
 
 class TestSimpleContentType(unittest.TestCase):

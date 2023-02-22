@@ -1,5 +1,5 @@
 <a name="__pageTop"></a>
-# dotcms_rest_client.dotcms_rest_client.tags.workflow_api.WorkflowApi
+# dotcms_rest_client.apis.tags.workflow_api.WorkflowApi
 
 All URIs are relative to */api*
 
@@ -65,7 +65,7 @@ Method | HTTP request | Description
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from dotcms_rest_client.model.workflow_step_add_form import WorkflowStepAddForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -144,7 +144,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from dotcms_rest_client.model.workflow_copy_form import WorkflowCopyForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -271,7 +271,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -349,7 +349,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -436,7 +436,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -514,7 +514,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -592,7 +592,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -670,7 +670,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -748,7 +748,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -826,7 +826,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -904,7 +904,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -982,7 +982,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -1069,7 +1069,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -1121,7 +1121,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -1199,7 +1199,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -1277,7 +1277,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from dotcms_rest_client.model.workflow_schemes_form import WorkflowSchemesForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -1383,7 +1383,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -1461,7 +1461,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -1539,7 +1539,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -1651,7 +1651,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -1729,7 +1729,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -1808,7 +1808,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -1886,7 +1886,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -1974,7 +1974,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -2052,7 +2052,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -2130,7 +2130,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -2208,7 +2208,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -2286,7 +2286,7 @@ Fire action by name
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from dotcms_rest_client.model.response_entity_view import ResponseEntityView
 from dotcms_rest_client.model.fire_action_by_name_form import FireActionByNameForm
 from pprint import pprint
@@ -2445,7 +2445,7 @@ Fire default action by name multipart
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from dotcms_rest_client.model.response_entity_view import ResponseEntityView
 from dotcms_rest_client.model.form_data_multi_part import FormDataMultiPart
 from pprint import pprint
@@ -2701,7 +2701,7 @@ Fire default action by name
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from dotcms_rest_client.model.response_entity_view import ResponseEntityView
 from dotcms_rest_client.model.fire_action_form import FireActionForm
 from pprint import pprint
@@ -2894,7 +2894,7 @@ Fire action by ID multipart
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from dotcms_rest_client.model.response_entity_view import ResponseEntityView
 from dotcms_rest_client.model.form_data_multi_part import FormDataMultiPart
 from pprint import pprint
@@ -3150,7 +3150,7 @@ Fire action by ID
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from dotcms_rest_client.model.response_entity_view import ResponseEntityView
 from dotcms_rest_client.model.fire_action_form import FireActionForm
 from pprint import pprint
@@ -3343,7 +3343,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from dotcms_rest_client.model.event_output import EventOutput
 from dotcms_rest_client.model.fire_bulk_actions_form import FireBulkActionsForm
 from pprint import pprint
@@ -3453,7 +3453,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from dotcms_rest_client.model.fire_bulk_actions_form import FireBulkActionsForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -3555,7 +3555,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from dotcms_rest_client.model.fire_action_form import FireActionForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -3729,7 +3729,7 @@ Fire default action by name on multiple contents
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from dotcms_rest_client.model.response_entity_view import ResponseEntityView
 from dotcms_rest_client.model.fire_multiple_action_form import FireMultipleActionForm
 from pprint import pprint
@@ -3867,7 +3867,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from dotcms_rest_client.model.bulk_action_form import BulkActionForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -3944,7 +3944,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -4022,7 +4022,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from dotcms_rest_client.model.workflow_scheme_import_object_form import WorkflowSchemeImportObjectForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -4214,7 +4214,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from dotcms_rest_client.model.workflow_reorder_workflow_action_step_form import WorkflowReorderWorkflowActionStepForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -4328,7 +4328,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -4415,7 +4415,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from dotcms_rest_client.model.workflow_action_form import WorkflowActionForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -4507,7 +4507,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from dotcms_rest_client.model.workflow_action_step_form import WorkflowActionStepForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -4611,7 +4611,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from dotcms_rest_client.model.workflow_actionlet_action_form import WorkflowActionletActionForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -4719,7 +4719,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from dotcms_rest_client.model.workflow_scheme_form import WorkflowSchemeForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -4795,7 +4795,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from dotcms_rest_client.model.workflow_system_action_form import WorkflowSystemActionForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -4872,7 +4872,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from dotcms_rest_client.model.workflow_action_form import WorkflowActionForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -4994,7 +4994,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from dotcms_rest_client.model.workflow_scheme_form import WorkflowSchemeForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -5100,7 +5100,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import workflow_api
+from dotcms_rest_client.apis.tags import workflow_api
 from dotcms_rest_client.model.workflow_step_update_form import WorkflowStepUpdateForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api

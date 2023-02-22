@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.page_container_form import PageContainerForm
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.page_container_form import PageContainerForm
+from openapi_client import configuration
 
 
 class TestPageContainerForm(unittest.TestCase):

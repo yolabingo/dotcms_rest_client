@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.mulitree_view import MulitreeView
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.mulitree_view import MulitreeView
+from openapi_client import configuration
 
 
 class TestMulitreeView(unittest.TestCase):

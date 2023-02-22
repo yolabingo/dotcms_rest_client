@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.select_field import SelectField
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.select_field import SelectField
+from openapi_client import configuration
 
 
 class TestSelectField(unittest.TestCase):

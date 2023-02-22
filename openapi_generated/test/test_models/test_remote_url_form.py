@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.remote_url_form import RemoteUrlForm
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.remote_url_form import RemoteUrlForm
+from openapi_client import configuration
 
 
 class TestRemoteUrlForm(unittest.TestCase):

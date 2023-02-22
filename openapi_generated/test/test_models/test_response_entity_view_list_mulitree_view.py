@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.response_entity_view_list_mulitree_view import ResponseEntityViewListMulitreeView
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.response_entity_view_list_mulitree_view import ResponseEntityViewListMulitreeView
+from openapi_client import configuration
 
 
 class TestResponseEntityViewListMulitreeView(unittest.TestCase):

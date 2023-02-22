@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.workflow_actionlet_parameter import WorkflowActionletParameter
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.workflow_actionlet_parameter import WorkflowActionletParameter
+from openapi_client import configuration
 
 
 class TestWorkflowActionletParameter(unittest.TestCase):

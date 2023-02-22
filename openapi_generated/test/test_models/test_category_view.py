@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.category_view import CategoryView
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.category_view import CategoryView
+from openapi_client import configuration
 
 
 class TestCategoryView(unittest.TestCase):

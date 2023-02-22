@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.host_folder_field import HostFolderField
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.host_folder_field import HostFolderField
+from openapi_client import configuration
 
 
 class TestHostFolderField(unittest.TestCase):

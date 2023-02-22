@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.row_field import RowField
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.row_field import RowField
+from openapi_client import configuration
 
 
 class TestRowField(unittest.TestCase):

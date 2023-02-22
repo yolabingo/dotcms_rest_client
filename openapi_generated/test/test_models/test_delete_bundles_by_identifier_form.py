@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.delete_bundles_by_identifier_form import DeleteBundlesByIdentifierForm
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.delete_bundles_by_identifier_form import DeleteBundlesByIdentifierForm
+from openapi_client import configuration
 
 
 class TestDeleteBundlesByIdentifierForm(unittest.TestCase):

@@ -1,5 +1,5 @@
 <a name="__pageTop"></a>
-# dotcms_rest_client.dotcms_rest_client.tags.bundle_api.BundleApi
+# dotcms_rest_client.apis.tags.bundle_api.BundleApi
 
 All URIs are relative to */api*
 
@@ -31,7 +31,7 @@ Method | HTTP request | Description
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import bundle_api
+from dotcms_rest_client.apis.tags import bundle_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -83,7 +83,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import bundle_api
+from dotcms_rest_client.apis.tags import bundle_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -135,7 +135,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import bundle_api
+from dotcms_rest_client.apis.tags import bundle_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -187,7 +187,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import bundle_api
+from dotcms_rest_client.apis.tags import bundle_api
 from dotcms_rest_client.model.delete_bundles_by_identifier_form import DeleteBundlesByIdentifierForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -263,7 +263,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import bundle_api
+from dotcms_rest_client.apis.tags import bundle_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -341,7 +341,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import bundle_api
+from dotcms_rest_client.apis.tags import bundle_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -419,7 +419,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import bundle_api
+from dotcms_rest_client.apis.tags import bundle_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -497,7 +497,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import bundle_api
+from dotcms_rest_client.apis.tags import bundle_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -575,7 +575,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import bundle_api
+from dotcms_rest_client.apis.tags import bundle_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -653,7 +653,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import bundle_api
+from dotcms_rest_client.apis.tags import bundle_api
 from dotcms_rest_client.model.generate_bundle_form import GenerateBundleForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -729,7 +729,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import bundle_api
+from dotcms_rest_client.apis.tags import bundle_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -841,7 +841,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import bundle_api
+from dotcms_rest_client.apis.tags import bundle_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -919,7 +919,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import bundle_api
+from dotcms_rest_client.apis.tags import bundle_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -997,7 +997,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import bundle_api
+from dotcms_rest_client.apis.tags import bundle_api
 from dotcms_rest_client.model.form_data_multi_part import FormDataMultiPart
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -1154,7 +1154,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import bundle_api
+from dotcms_rest_client.apis.tags import bundle_api
 from dotcms_rest_client.model.form_data_multi_part import FormDataMultiPart
 from pprint import pprint
 # Defining the host is optional and defaults to /api

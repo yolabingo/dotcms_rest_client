@@ -1,5 +1,5 @@
 <a name="__pageTop"></a>
-# dotcms_rest_client.dotcms_rest_client.tags.default_api.DefaultApi
+# dotcms_rest_client.apis.tags.default_api.DefaultApi
 
 All URIs are relative to */api*
 
@@ -401,7 +401,7 @@ Method | HTTP request | Description
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -479,7 +479,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.rest_rule import RestRule
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -597,7 +597,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.rest_rule_action import RestRuleAction
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -712,7 +712,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.rest_condition_group import RestConditionGroup
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -830,7 +830,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.rest_condition import RestCondition
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -944,7 +944,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.rest_condition_value import RestConditionValue
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -1060,7 +1060,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -1147,7 +1147,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.tag_form import TagForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -1230,7 +1230,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -1342,7 +1342,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -1394,7 +1394,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -1506,7 +1506,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -1585,7 +1585,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -1664,7 +1664,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -1742,7 +1742,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.authentication_form import AuthenticationForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -1821,7 +1821,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -1899,7 +1899,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -1978,7 +1978,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -2057,7 +2057,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -2136,7 +2136,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -2215,7 +2215,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -2294,7 +2294,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.rest_tag import RestTag
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -2408,7 +2408,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.rest_persona import RestPersona
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -2509,7 +2509,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -2621,7 +2621,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.change_logger_form import ChangeLoggerForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -2696,7 +2696,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -2774,7 +2774,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -2852,7 +2852,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -2939,7 +2939,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -3017,7 +3017,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -3095,7 +3095,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -3217,7 +3217,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -3338,7 +3338,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -3425,7 +3425,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -3537,7 +3537,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.response_entity_container_view import ResponseEntityContainerView
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -3629,7 +3629,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -3707,7 +3707,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.copy_site_form import CopySiteForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -3806,7 +3806,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.remote_url_form import RemoteUrlForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -3884,7 +3884,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.form_data_multi_part import FormDataMultiPart
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -4041,7 +4041,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -4153,7 +4153,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.custom_portlet_form import CustomPortletForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -4231,7 +4231,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -4333,7 +4333,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -4435,7 +4435,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -4547,7 +4547,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -4659,7 +4659,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -4768,7 +4768,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -4846,7 +4846,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.site_form import SiteForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -4935,7 +4935,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -4987,7 +4987,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -5065,7 +5065,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -5117,7 +5117,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -5195,7 +5195,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -5273,7 +5273,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -5399,7 +5399,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -5478,7 +5478,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -5557,7 +5557,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.delete_form import DeleteForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -5633,7 +5633,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -5711,7 +5711,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -5789,7 +5789,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -5868,7 +5868,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -5984,7 +5984,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -6071,7 +6071,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -6149,7 +6149,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -6261,7 +6261,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.delete_pp_queue_elements_by_identifier_form import DeletePPQueueElementsByIdentifierForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -6337,7 +6337,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -6424,7 +6424,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -6502,7 +6502,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -6589,7 +6589,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -6676,7 +6676,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -6754,7 +6754,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -6842,7 +6842,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -6930,7 +6930,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -6982,7 +6982,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -7078,7 +7078,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -7174,7 +7174,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -7283,7 +7283,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -7392,7 +7392,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.delete_fields_form import DeleteFieldsForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -7498,7 +7498,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -7576,7 +7576,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -7685,7 +7685,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -7763,7 +7763,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -7841,7 +7841,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.delete_secret_form import DeleteSecretForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -7919,7 +7919,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -7997,7 +7997,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -8075,7 +8075,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -8162,7 +8162,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.role_layout_form import RoleLayoutForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -8239,7 +8239,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -8317,7 +8317,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -8395,7 +8395,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -8507,7 +8507,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -8585,7 +8585,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -8663,7 +8663,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -8741,7 +8741,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -8819,7 +8819,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -8871,7 +8871,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -8923,7 +8923,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -9001,7 +9001,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -9053,7 +9053,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -9105,7 +9105,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -9157,7 +9157,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -9266,7 +9266,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -9345,7 +9345,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -9454,7 +9454,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -9563,7 +9563,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -9642,7 +9642,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -9751,7 +9751,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -9830,7 +9830,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -9939,7 +9939,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -10017,7 +10017,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -10105,7 +10105,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.export_secret_form import ExportSecretForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -10188,7 +10188,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -10266,7 +10266,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -10318,7 +10318,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -10396,7 +10396,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -10474,7 +10474,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -10552,7 +10552,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.search_site_by_name_form import SearchSiteByNameForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -10626,7 +10626,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -10704,7 +10704,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -10834,7 +10834,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -10912,7 +10912,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -11009,7 +11009,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -11087,7 +11087,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.search_by_path_form import SearchByPathForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -11161,7 +11161,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -11239,7 +11239,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -11317,7 +11317,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -11432,7 +11432,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -11510,7 +11510,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -11616,7 +11616,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -11694,7 +11694,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -11783,7 +11783,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -11861,7 +11861,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -11948,7 +11948,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -12000,7 +12000,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -12096,7 +12096,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.forgot_password_form import ForgotPasswordForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -12170,7 +12170,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -12248,7 +12248,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -12300,7 +12300,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -12378,7 +12378,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -12456,7 +12456,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -12572,7 +12572,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -12698,7 +12698,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -12776,7 +12776,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -12854,7 +12854,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -12932,7 +12932,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -13010,7 +13010,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.create_token_form import CreateTokenForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -13087,7 +13087,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -13199,7 +13199,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -13277,7 +13277,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -13364,7 +13364,7 @@ Get permission for a Contentlet
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.response_entity_permission_view import ResponseEntityPermissionView
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -13469,7 +13469,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -13521,7 +13521,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -13645,7 +13645,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.category_view import CategoryView
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -13737,7 +13737,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -13861,7 +13861,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -13913,7 +13913,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -13992,7 +13992,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -14134,7 +14134,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -14212,7 +14212,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -14324,7 +14324,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -14411,7 +14411,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -14489,7 +14489,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -14576,7 +14576,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -14663,7 +14663,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -14741,7 +14741,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -14819,7 +14819,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -14897,7 +14897,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -14975,7 +14975,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -15053,7 +15053,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -15131,7 +15131,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -15210,7 +15210,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -15288,7 +15288,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -15340,7 +15340,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -15436,7 +15436,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -15532,7 +15532,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -15619,7 +15619,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -15706,7 +15706,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -15784,7 +15784,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -15836,7 +15836,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.browser_query_form import BrowserQueryForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -15927,7 +15927,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -16005,7 +16005,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -16083,7 +16083,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -16161,7 +16161,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -16213,7 +16213,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -16291,7 +16291,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -16369,7 +16369,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -16447,7 +16447,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -16499,7 +16499,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -16577,7 +16577,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -16664,7 +16664,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -16742,7 +16742,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -16820,7 +16820,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -16898,7 +16898,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -16976,7 +16976,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -17054,7 +17054,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -17132,7 +17132,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -17220,7 +17220,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -17298,7 +17298,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -17376,7 +17376,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -17454,7 +17454,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -17532,7 +17532,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -17584,7 +17584,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -17636,7 +17636,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -17688,7 +17688,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.i18_n_form import I18NForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -17766,7 +17766,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.i18_n_form import I18NForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -17844,7 +17844,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -17922,7 +17922,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -18000,7 +18000,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -18111,7 +18111,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -18208,7 +18208,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -18305,7 +18305,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -18357,7 +18357,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.remote_api_token_form import RemoteAPITokenForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -18433,7 +18433,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -18485,7 +18485,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -18563,7 +18563,7 @@ Retrieve the Site Variables for a site
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.response_site_variables_entity_view import ResponseSiteVariablesEntityView
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -18658,7 +18658,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -18790,7 +18790,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -18868,7 +18868,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -18947,7 +18947,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -19025,7 +19025,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -19103,7 +19103,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -19155,7 +19155,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -19233,7 +19233,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -19321,7 +19321,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -19399,7 +19399,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.form_data_multi_part import FormDataMultiPart
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -19556,7 +19556,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.form_data_multi_part import FormDataMultiPart
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -19713,7 +19713,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.form_data_multi_part import FormDataMultiPart
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -19870,7 +19870,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -19948,7 +19948,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -20026,7 +20026,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -20078,7 +20078,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.api_token_form import ApiTokenForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -20160,7 +20160,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -20238,7 +20238,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -20316,7 +20316,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -20403,7 +20403,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -20455,7 +20455,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -20507,7 +20507,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -20640,7 +20640,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -20719,7 +20719,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.persona import Persona
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -20823,7 +20823,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.rest_language import RestLanguage
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -20901,7 +20901,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.rest_persona import RestPersona
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -20979,7 +20979,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.rest_rule import RestRule
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -21083,7 +21083,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -21170,7 +21170,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -21257,7 +21257,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -21309,7 +21309,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -21361,7 +21361,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -21448,7 +21448,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -21527,7 +21527,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -21605,7 +21605,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -21692,7 +21692,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -21770,7 +21770,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -21848,7 +21848,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -21926,7 +21926,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -22004,7 +22004,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -22091,7 +22091,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -22178,7 +22178,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -22256,7 +22256,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -22368,7 +22368,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -22447,7 +22447,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -22568,7 +22568,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.login_as_form import LoginAsForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -22643,7 +22643,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -22740,7 +22740,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.i18_n_form import I18NForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -22818,7 +22818,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -22870,7 +22870,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -22922,7 +22922,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -23000,7 +23000,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -23078,7 +23078,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -23156,7 +23156,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.make_default_lang_form import MakeDefaultLangForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -23260,7 +23260,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -23312,7 +23312,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -23390,7 +23390,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -23502,7 +23502,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -23604,7 +23604,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -23682,7 +23682,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -23734,7 +23734,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.form_data_multi_part import FormDataMultiPart
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -23921,7 +23921,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.form_data_multi_part import FormDataMultiPart
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -24118,7 +24118,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.personalization_persona_page_form import PersonalizationPersonaPageForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -24193,7 +24193,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -24280,7 +24280,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -24358,7 +24358,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -24410,7 +24410,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.form_data_multi_part import FormDataMultiPart
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -24597,7 +24597,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.form_data_multi_part import FormDataMultiPart
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -24794,7 +24794,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -24872,7 +24872,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -24950,7 +24950,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -25047,7 +25047,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -25126,7 +25126,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -25205,7 +25205,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -25283,7 +25283,7 @@ Pull Related Content
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.response_entity_view import ResponseEntityView
 from dotcms_rest_client.model.pull_related_form import PullRelatedForm
 from pprint import pprint
@@ -25387,7 +25387,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.form_data_multi_part import FormDataMultiPart
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -25574,7 +25574,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.form_data_multi_part import FormDataMultiPart
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -25771,7 +25771,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.form_data_content_disposition import FormDataContentDisposition
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -25895,7 +25895,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -25947,7 +25947,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -26034,7 +26034,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -26121,7 +26121,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -26217,7 +26217,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -26304,7 +26304,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -26400,7 +26400,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -26532,7 +26532,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -26610,7 +26610,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -26688,7 +26688,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -26766,7 +26766,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.reset_password_form import ResetPasswordForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -26841,7 +26841,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -26919,7 +26919,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -26997,7 +26997,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -27049,7 +27049,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.category_edit_form import CategoryEditForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -27132,7 +27132,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.category_view import CategoryView
 from dotcms_rest_client.model.category_form import CategoryForm
 from pprint import pprint
@@ -27229,7 +27229,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.template_form import TemplateForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -27355,7 +27355,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.template_form import TemplateForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -27481,7 +27481,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -27565,7 +27565,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -27665,7 +27665,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -27751,7 +27751,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.form_data_content_disposition import FormDataContentDisposition
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -27847,7 +27847,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.template_form import TemplateForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -27973,7 +27973,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.filter_descriptor_form import FilterDescriptorForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -28054,7 +28054,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -28132,7 +28132,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.language_form import LanguageForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -28209,7 +28209,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.category_view import CategoryView
 from dotcms_rest_client.model.category_form import CategoryForm
 from pprint import pprint
@@ -28306,7 +28306,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.container_form import ContainerForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -28406,7 +28406,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.template_form import TemplateForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -28532,7 +28532,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.role_layout_form import RoleLayoutForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -28609,7 +28609,7 @@ Save a Site Variable
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.response_host_variable_entity_view import ResponseHostVariableEntityView
 from dotcms_rest_client.model.site_variable_form import SiteVariableForm
 from pprint import pprint
@@ -28704,7 +28704,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -28794,7 +28794,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -28904,7 +28904,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -29014,7 +29014,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -29066,7 +29066,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -29118,7 +29118,7 @@ Search Roles
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.response_entity_small_role_view import ResponseEntitySmallRoleView
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -29260,7 +29260,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.open_folder_form import OpenFolderForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -29334,7 +29334,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -29412,7 +29412,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.rest_rule import RestRule
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -29513,7 +29513,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.rest_rule_action import RestRuleAction
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -29614,7 +29614,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.rest_condition_group import RestConditionGroup
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -29718,7 +29718,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -29805,7 +29805,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -29901,7 +29901,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.rest_user import RestUser
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -29967,7 +29967,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -30046,7 +30046,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.set_form import SetForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -30121,7 +30121,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.set_hash_form import SetHashForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -30198,7 +30198,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -30294,7 +30294,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -30381,7 +30381,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -30459,7 +30459,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -30546,7 +30546,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -30598,7 +30598,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -30722,7 +30722,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -30810,7 +30810,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -30862,7 +30862,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -30941,7 +30941,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -30993,7 +30993,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -31071,7 +31071,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -31123,7 +31123,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -31202,7 +31202,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -31281,7 +31281,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -31359,7 +31359,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -31438,7 +31438,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -31517,7 +31517,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -31595,7 +31595,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.container_form import ContainerForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -31695,7 +31695,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.rest_rule import RestRule
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -31837,7 +31837,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.rest_rule_action import RestRuleAction
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -31970,7 +31970,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.rest_condition_group import RestConditionGroup
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -32106,7 +32106,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.rest_condition import RestCondition
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -32238,7 +32238,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.rest_condition_value import RestConditionValue
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -32372,7 +32372,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.update_user_form import UpdateUserForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -32451,7 +32451,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -32563,7 +32563,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.form_data_multi_part import FormDataMultiPart
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -32720,7 +32720,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -32832,7 +32832,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -32934,7 +32934,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -33046,7 +33046,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -33158,7 +33158,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.update_field_form import UpdateFieldForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -33272,7 +33272,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -33394,7 +33394,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -33516,7 +33516,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -33618,7 +33618,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -33720,7 +33720,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.filter_descriptor_form import FilterDescriptorForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -33801,7 +33801,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.language_form import LanguageForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -33908,7 +33908,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.site_form import SiteForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -34017,7 +34017,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.update_tag_form import UpdateTagForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -34093,7 +34093,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.upgrade_task_form import UpgradeTaskForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -34167,7 +34167,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.form_data_multi_part import FormDataMultiPart
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -34344,7 +34344,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -34456,7 +34456,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import default_api
+from dotcms_rest_client.apis.tags import default_api
 from dotcms_rest_client.model.company_email_form import CompanyEmailForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api

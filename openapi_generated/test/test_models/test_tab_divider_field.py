@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.tab_divider_field import TabDividerField
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.tab_divider_field import TabDividerField
+from openapi_client import configuration
 
 
 class TestTabDividerField(unittest.TestCase):

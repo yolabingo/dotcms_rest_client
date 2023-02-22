@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.custom_field import CustomField
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.custom_field import CustomField
+from openapi_client import configuration
 
 
 class TestCustomField(unittest.TestCase):

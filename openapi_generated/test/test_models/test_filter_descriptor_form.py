@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.filter_descriptor_form import FilterDescriptorForm
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.filter_descriptor_form import FilterDescriptorForm
+from openapi_client import configuration
 
 
 class TestFilterDescriptorForm(unittest.TestCase):

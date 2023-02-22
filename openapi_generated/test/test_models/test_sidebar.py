@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.sidebar import Sidebar
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.sidebar import Sidebar
+from openapi_client import configuration
 
 
 class TestSidebar(unittest.TestCase):

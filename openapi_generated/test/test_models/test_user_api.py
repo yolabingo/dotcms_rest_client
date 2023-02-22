@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.user_api import UserAPI
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.user_api import UserAPI
+from openapi_client import configuration
 
 
 class TestUserAPI(unittest.TestCase):

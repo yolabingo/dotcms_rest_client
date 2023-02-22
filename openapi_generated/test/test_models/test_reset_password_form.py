@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.reset_password_form import ResetPasswordForm
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.reset_password_form import ResetPasswordForm
+from openapi_client import configuration
 
 
 class TestResetPasswordForm(unittest.TestCase):

@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.response_entity_view_map_string_object import ResponseEntityViewMapStringObject
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.response_entity_view_map_string_object import ResponseEntityViewMapStringObject
+from openapi_client import configuration
 
 
 class TestResponseEntityViewMapStringObject(unittest.TestCase):

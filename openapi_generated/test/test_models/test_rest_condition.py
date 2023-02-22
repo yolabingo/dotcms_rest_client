@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.rest_condition import RestCondition
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.rest_condition import RestCondition
+from openapi_client import configuration
 
 
 class TestRestCondition(unittest.TestCase):

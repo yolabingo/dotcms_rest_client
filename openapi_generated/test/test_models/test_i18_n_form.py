@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.i18_n_form import I18NForm
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.i18_n_form import I18NForm
+from openapi_client import configuration
 
 
 class TestI18NForm(unittest.TestCase):

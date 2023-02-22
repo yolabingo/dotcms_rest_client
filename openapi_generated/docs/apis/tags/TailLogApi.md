@@ -1,5 +1,5 @@
 <a name="__pageTop"></a>
-# dotcms_rest_client.dotcms_rest_client.tags.tail_log_api.TailLogApi
+# dotcms_rest_client.apis.tags.tail_log_api.TailLogApi
 
 All URIs are relative to */api*
 
@@ -17,7 +17,7 @@ Method | HTTP request | Description
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import tail_log_api
+from dotcms_rest_client.apis.tags import tail_log_api
 from dotcms_rest_client.model.event_output import EventOutput
 from pprint import pprint
 # Defining the host is optional and defaults to /api

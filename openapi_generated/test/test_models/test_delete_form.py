@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.delete_form import DeleteForm
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.delete_form import DeleteForm
+from openapi_client import configuration
 
 
 class TestDeleteForm(unittest.TestCase):

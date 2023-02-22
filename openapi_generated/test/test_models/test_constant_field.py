@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.constant_field import ConstantField
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.constant_field import ConstantField
+from openapi_client import configuration
 
 
 class TestConstantField(unittest.TestCase):

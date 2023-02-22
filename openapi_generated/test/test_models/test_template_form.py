@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.template_form import TemplateForm
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.template_form import TemplateForm
+from openapi_client import configuration
 
 
 class TestTemplateForm(unittest.TestCase):

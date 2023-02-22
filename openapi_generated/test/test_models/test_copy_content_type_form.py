@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.copy_content_type_form import CopyContentTypeForm
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.copy_content_type_form import CopyContentTypeForm
+from openapi_client import configuration
 
 
 class TestCopyContentTypeForm(unittest.TestCase):

@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.persona_content_type import PersonaContentType
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.persona_content_type import PersonaContentType
+from openapi_client import configuration
 
 
 class TestPersonaContentType(unittest.TestCase):

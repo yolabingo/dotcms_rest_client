@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.tuple2_system_action_string import Tuple2SystemActionString
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.tuple2_system_action_string import Tuple2SystemActionString
+from openapi_client import configuration
 
 
 class TestTuple2SystemActionString(unittest.TestCase):

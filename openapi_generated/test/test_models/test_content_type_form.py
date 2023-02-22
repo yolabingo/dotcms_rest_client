@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.content_type_form import ContentTypeForm
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.content_type_form import ContentTypeForm
+from openapi_client import configuration
 
 
 class TestContentTypeForm(unittest.TestCase):

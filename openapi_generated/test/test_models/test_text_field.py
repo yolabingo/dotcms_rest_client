@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.text_field import TextField
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.text_field import TextField
+from openapi_client import configuration
 
 
 class TestTextField(unittest.TestCase):

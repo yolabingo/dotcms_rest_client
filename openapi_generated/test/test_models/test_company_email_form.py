@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.company_email_form import CompanyEmailForm
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.company_email_form import CompanyEmailForm
+from openapi_client import configuration
 
 
 class TestCompanyEmailForm(unittest.TestCase):

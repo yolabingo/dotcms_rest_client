@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.add_variant_form import AddVariantForm
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.add_variant_form import AddVariantForm
+from openapi_client import configuration
 
 
 class TestAddVariantForm(unittest.TestCase):

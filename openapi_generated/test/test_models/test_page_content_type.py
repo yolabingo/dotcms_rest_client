@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.page_content_type import PageContentType
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.page_content_type import PageContentType
+from openapi_client import configuration
 
 
 class TestPageContentType(unittest.TestCase):

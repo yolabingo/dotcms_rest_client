@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.event_output import EventOutput
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.event_output import EventOutput
+from openapi_client import configuration
 
 
 class TestEventOutput(unittest.TestCase):

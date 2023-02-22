@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.update_user_form import UpdateUserForm
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.update_user_form import UpdateUserForm
+from openapi_client import configuration
 
 
 class TestUpdateUserForm(unittest.TestCase):

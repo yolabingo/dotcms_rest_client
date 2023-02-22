@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.parameter_model import ParameterModel
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.parameter_model import ParameterModel
+from openapi_client import configuration
 
 
 class TestParameterModel(unittest.TestCase):

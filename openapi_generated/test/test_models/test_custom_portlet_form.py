@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.custom_portlet_form import CustomPortletForm
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.custom_portlet_form import CustomPortletForm
+from openapi_client import configuration
 
 
 class TestCustomPortletForm(unittest.TestCase):

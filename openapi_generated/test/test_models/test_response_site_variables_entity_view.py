@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.response_site_variables_entity_view import ResponseSiteVariablesEntityView
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.response_site_variables_entity_view import ResponseSiteVariablesEntityView
+from openapi_client import configuration
 
 
 class TestResponseSiteVariablesEntityView(unittest.TestCase):

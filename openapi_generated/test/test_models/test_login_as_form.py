@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.login_as_form import LoginAsForm
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.login_as_form import LoginAsForm
+from openapi_client import configuration
 
 
 class TestLoginAsForm(unittest.TestCase):

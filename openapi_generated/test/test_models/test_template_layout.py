@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.template_layout import TemplateLayout
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.template_layout import TemplateLayout
+from openapi_client import configuration
 
 
 class TestTemplateLayout(unittest.TestCase):

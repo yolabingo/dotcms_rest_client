@@ -1,5 +1,5 @@
 <a name="__pageTop"></a>
-# dotcms_rest_client.dotcms_rest_client.tags.content_type_api.ContentTypeApi
+# dotcms_rest_client.apis.tags.content_type_api.ContentTypeApi
 
 All URIs are relative to */api*
 
@@ -24,7 +24,7 @@ Method | HTTP request | Description
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import content_type_api
+from dotcms_rest_client.apis.tags import content_type_api
 from dotcms_rest_client.model.copy_content_type_form import CopyContentTypeForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -132,7 +132,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import content_type_api
+from dotcms_rest_client.apis.tags import content_type_api
 from dotcms_rest_client.model.content_type_form import ContentTypeForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -217,7 +217,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import content_type_api
+from dotcms_rest_client.apis.tags import content_type_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -295,7 +295,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import content_type_api
+from dotcms_rest_client.apis.tags import content_type_api
 from dotcms_rest_client.model.filtered_content_types_form import FilteredContentTypesForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api
@@ -375,7 +375,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import content_type_api
+from dotcms_rest_client.apis.tags import content_type_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -508,7 +508,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import content_type_api
+from dotcms_rest_client.apis.tags import content_type_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -560,7 +560,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import content_type_api
+from dotcms_rest_client.apis.tags import content_type_api
 from pprint import pprint
 # Defining the host is optional and defaults to /api
 # See configuration.py for a list of all supported configuration parameters.
@@ -681,7 +681,7 @@ No authorization required
 
 ```python
 import dotcms_rest_client
-from dotcms_rest_client.dotcms_rest_client.tags import content_type_api
+from dotcms_rest_client.apis.tags import content_type_api
 from dotcms_rest_client.model.content_type_form import ContentTypeForm
 from pprint import pprint
 # Defining the host is optional and defaults to /api

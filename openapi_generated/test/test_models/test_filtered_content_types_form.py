@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.filtered_content_types_form import FilteredContentTypesForm
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.filtered_content_types_form import FilteredContentTypesForm
+from openapi_client import configuration
 
 
 class TestFilteredContentTypesForm(unittest.TestCase):

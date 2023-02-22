@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.immutable_map_string_string import ImmutableMapStringString
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.immutable_map_string_string import ImmutableMapStringString
+from openapi_client import configuration
 
 
 class TestImmutableMapStringString(unittest.TestCase):

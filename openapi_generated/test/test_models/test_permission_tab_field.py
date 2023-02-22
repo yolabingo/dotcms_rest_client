@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.permission_tab_field import PermissionTabField
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.permission_tab_field import PermissionTabField
+from openapi_client import configuration
 
 
 class TestPermissionTabField(unittest.TestCase):

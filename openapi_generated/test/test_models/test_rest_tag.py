@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.rest_tag import RestTag
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.rest_tag import RestTag
+from openapi_client import configuration
 
 
 class TestRestTag(unittest.TestCase):

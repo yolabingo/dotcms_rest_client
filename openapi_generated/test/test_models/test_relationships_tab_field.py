@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.relationships_tab_field import RelationshipsTabField
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.relationships_tab_field import RelationshipsTabField
+from openapi_client import configuration
 
 
 class TestRelationshipsTabField(unittest.TestCase):

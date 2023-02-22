@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.host_variable import HostVariable
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.host_variable import HostVariable
+from openapi_client import configuration
 
 
 class TestHostVariable(unittest.TestCase):

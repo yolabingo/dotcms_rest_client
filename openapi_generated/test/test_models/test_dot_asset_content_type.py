@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.dot_asset_content_type import DotAssetContentType
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.dot_asset_content_type import DotAssetContentType
+from openapi_client import configuration
 
 
 class TestDotAssetContentType(unittest.TestCase):

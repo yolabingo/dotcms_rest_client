@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.selected_experiments import SelectedExperiments
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.selected_experiments import SelectedExperiments
+from openapi_client import configuration
 
 
 class TestSelectedExperiments(unittest.TestCase):

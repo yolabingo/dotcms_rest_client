@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.tag_field import TagField
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.tag_field import TagField
+from openapi_client import configuration
 
 
 class TestTagField(unittest.TestCase):

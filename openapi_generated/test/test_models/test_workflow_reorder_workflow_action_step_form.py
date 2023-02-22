@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.workflow_reorder_workflow_action_step_form import WorkflowReorderWorkflowActionStepForm
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.workflow_reorder_workflow_action_step_form import WorkflowReorderWorkflowActionStepForm
+from openapi_client import configuration
 
 
 class TestWorkflowReorderWorkflowActionStepForm(unittest.TestCase):

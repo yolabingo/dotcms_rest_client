@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.copy_contentlet_form import CopyContentletForm
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.copy_contentlet_form import CopyContentletForm
+from openapi_client import configuration
 
 
 class TestCopyContentletForm(unittest.TestCase):

@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.workflow_action_form import WorkflowActionForm
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.workflow_action_form import WorkflowActionForm
+from openapi_client import configuration
 
 
 class TestWorkflowActionForm(unittest.TestCase):

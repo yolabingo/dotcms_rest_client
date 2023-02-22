@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.binary_field import BinaryField
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.binary_field import BinaryField
+from openapi_client import configuration
 
 
 class TestBinaryField(unittest.TestCase):

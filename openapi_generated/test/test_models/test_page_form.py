@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.page_form import PageForm
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.page_form import PageForm
+from openapi_client import configuration
 
 
 class TestPageForm(unittest.TestCase):

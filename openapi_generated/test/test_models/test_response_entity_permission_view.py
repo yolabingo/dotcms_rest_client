@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.response_entity_permission_view import ResponseEntityPermissionView
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.response_entity_permission_view import ResponseEntityPermissionView
+from openapi_client import configuration
 
 
 class TestResponseEntityPermissionView(unittest.TestCase):

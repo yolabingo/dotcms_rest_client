@@ -11,9 +11,9 @@
 
 import unittest
 
-import dotcms_rest_client
-from dotcms_rest_client.model.multi_select_field import MultiSelectField
-from dotcms_rest_client import configuration
+import openapi_client
+from openapi_client.model.multi_select_field import MultiSelectField
+from openapi_client import configuration
 
 
 class TestMultiSelectField(unittest.TestCase):
