@@ -26,7 +26,6 @@ java -jar modules/openapi-generator-cli/target/openapi-generator-cli.jar \
     --skip-validate-spec \
     -i  dotcms_openapi.yaml \
     -g python \
-    --package-name dotcms_rest_client \
     -o $DOTCMS_OPENAPI_GENERATED
 
 # --package-name dotcms_rest_client \
