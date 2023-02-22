@@ -18,11 +18,12 @@ then
 fi
 
 # fetch dotcms openapi spec
-curl -o dotcms_openapi.yaml $DOTCMS_URL
+# curl -o dotcms_openapi.yaml $DOTCMS_URL
 
 # generate python client
 java -jar modules/openapi-generator-cli/target/openapi-generator-cli.jar \
     generate \
+    --global-property skipFormModel=false \
     --skip-validate-spec \
     -i  dotcms_openapi.yaml \
     -g python \

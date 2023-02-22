@@ -18,6 +18,7 @@ from openapi_client.model.assign_comment_bean import AssignCommentBean
 from openapi_client.model.authentication_form import AuthenticationForm
 from openapi_client.model.binary_field import BinaryField
 from openapi_client.model.body import Body
+from openapi_client.model.body_part import BodyPart
 from openapi_client.model.body_view import BodyView
 from openapi_client.model.browser_query_form import BrowserQueryForm
 from openapi_client.model.bulk_action_form import BulkActionForm
@@ -36,6 +37,7 @@ from openapi_client.model.container_entry import ContainerEntry
 from openapi_client.model.container_form import ContainerForm
 from openapi_client.model.container_structure import ContainerStructure
 from openapi_client.model.container_uuid import ContainerUUID
+from openapi_client.model.content_disposition import ContentDisposition
 from openapi_client.model.content_type import ContentType
 from openapi_client.model.content_type_form import ContentTypeForm
 from openapi_client.model.copy_content_type_form import CopyContentTypeForm
@@ -71,6 +73,9 @@ from openapi_client.model.fire_bulk_actions_form import FireBulkActionsForm
 from openapi_client.model.fire_multiple_action_form import FireMultipleActionForm
 from openapi_client.model.forgot_password_form import ForgotPasswordForm
 from openapi_client.model.form_content_type import FormContentType
+from openapi_client.model.form_data_body_part import FormDataBodyPart
+from openapi_client.model.form_data_content_disposition import FormDataContentDisposition
+from openapi_client.model.form_data_multi_part import FormDataMultiPart
 from openapi_client.model.generate_bundle_form import GenerateBundleForm
 from openapi_client.model.goals import Goals
 from openapi_client.model.hidden_field import HiddenField
@@ -89,12 +94,14 @@ from openapi_client.model.make_default_lang_form import MakeDefaultLangForm
 from openapi_client.model.message_entity import MessageEntity
 from openapi_client.model.metric import Metric
 from openapi_client.model.mulitree_view import MulitreeView
+from openapi_client.model.multi_part import MultiPart
 from openapi_client.model.multi_select_field import MultiSelectField
 from openapi_client.model.open_folder_form import OpenFolderForm
 from openapi_client.model.page_container_form import PageContainerForm
 from openapi_client.model.page_content_type import PageContentType
 from openapi_client.model.page_form import PageForm
 from openapi_client.model.parameter_model import ParameterModel
+from openapi_client.model.parameterized_header import ParameterizedHeader
 from openapi_client.model.permission import Permission
 from openapi_client.model.permission_tab_field import PermissionTabField
 from openapi_client.model.permission_view import PermissionView

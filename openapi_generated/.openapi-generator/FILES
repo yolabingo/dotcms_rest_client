@@ -18,6 +18,7 @@ docs/models/AssignCommentBean.md
 docs/models/AuthenticationForm.md
 docs/models/BinaryField.md
 docs/models/Body.md
+docs/models/BodyPart.md
 docs/models/BodyView.md
 docs/models/BrowserQueryForm.md
 docs/models/BulkActionForm.md
@@ -36,6 +37,7 @@ docs/models/ContainerEntry.md
 docs/models/ContainerForm.md
 docs/models/ContainerStructure.md
 docs/models/ContainerUUID.md
+docs/models/ContentDisposition.md
 docs/models/ContentType.md
 docs/models/ContentTypeForm.md
 docs/models/CopyContentTypeForm.md
@@ -71,6 +73,9 @@ docs/models/FireBulkActionsForm.md
 docs/models/FireMultipleActionForm.md
 docs/models/ForgotPasswordForm.md
 docs/models/FormContentType.md
+docs/models/FormDataBodyPart.md
+docs/models/FormDataContentDisposition.md
+docs/models/FormDataMultiPart.md
 docs/models/GenerateBundleForm.md
 docs/models/Goals.md
 docs/models/HiddenField.md
@@ -89,12 +94,14 @@ docs/models/MakeDefaultLangForm.md
 docs/models/MessageEntity.md
 docs/models/Metric.md
 docs/models/MulitreeView.md
+docs/models/MultiPart.md
 docs/models/MultiSelectField.md
 docs/models/OpenFolderForm.md
 docs/models/PageContainerForm.md
 docs/models/PageContentType.md
 docs/models/PageForm.md
 docs/models/ParameterModel.md
+docs/models/ParameterizedHeader.md
 docs/models/Permission.md
 docs/models/PermissionTabField.md
 docs/models/PermissionView.md
@@ -227,6 +234,8 @@ openapi_client/model/binary_field.py
 openapi_client/model/binary_field.pyi
 openapi_client/model/body.py
 openapi_client/model/body.pyi
+openapi_client/model/body_part.py
+openapi_client/model/body_part.pyi
 openapi_client/model/body_view.py
 openapi_client/model/body_view.pyi
 openapi_client/model/browser_query_form.py
@@ -263,6 +272,8 @@ openapi_client/model/container_structure.py
 openapi_client/model/container_structure.pyi
 openapi_client/model/container_uuid.py
 openapi_client/model/container_uuid.pyi
+openapi_client/model/content_disposition.py
+openapi_client/model/content_disposition.pyi
 openapi_client/model/content_type.py
 openapi_client/model/content_type.pyi
 openapi_client/model/content_type_form.py
@@ -333,6 +344,12 @@ openapi_client/model/forgot_password_form.py
 openapi_client/model/forgot_password_form.pyi
 openapi_client/model/form_content_type.py
 openapi_client/model/form_content_type.pyi
+openapi_client/model/form_data_body_part.py
+openapi_client/model/form_data_body_part.pyi
+openapi_client/model/form_data_content_disposition.py
+openapi_client/model/form_data_content_disposition.pyi
+openapi_client/model/form_data_multi_part.py
+openapi_client/model/form_data_multi_part.pyi
 openapi_client/model/generate_bundle_form.py
 openapi_client/model/generate_bundle_form.pyi
 openapi_client/model/goals.py
@@ -369,6 +386,8 @@ openapi_client/model/metric.py
 openapi_client/model/metric.pyi
 openapi_client/model/mulitree_view.py
 openapi_client/model/mulitree_view.pyi
+openapi_client/model/multi_part.py
+openapi_client/model/multi_part.pyi
 openapi_client/model/multi_select_field.py
 openapi_client/model/multi_select_field.pyi
 openapi_client/model/open_folder_form.py
@@ -381,6 +400,8 @@ openapi_client/model/page_form.py
 openapi_client/model/page_form.pyi
 openapi_client/model/parameter_model.py
 openapi_client/model/parameter_model.pyi
+openapi_client/model/parameterized_header.py
+openapi_client/model/parameterized_header.pyi
 openapi_client/model/permission.py
 openapi_client/model/permission.pyi
 openapi_client/model/permission_tab_field.py
@@ -601,6 +622,7 @@ test/test_models/test_assign_comment_bean.py
 test/test_models/test_authentication_form.py
 test/test_models/test_binary_field.py
 test/test_models/test_body.py
+test/test_models/test_body_part.py
 test/test_models/test_body_view.py
 test/test_models/test_browser_query_form.py
 test/test_models/test_bulk_action_form.py
@@ -619,6 +641,7 @@ test/test_models/test_container_entry.py
 test/test_models/test_container_form.py
 test/test_models/test_container_structure.py
 test/test_models/test_container_uuid.py
+test/test_models/test_content_disposition.py
 test/test_models/test_content_type.py
 test/test_models/test_content_type_form.py
 test/test_models/test_copy_content_type_form.py
@@ -654,6 +677,9 @@ test/test_models/test_fire_bulk_actions_form.py
 test/test_models/test_fire_multiple_action_form.py
 test/test_models/test_forgot_password_form.py
 test/test_models/test_form_content_type.py
+test/test_models/test_form_data_body_part.py
+test/test_models/test_form_data_content_disposition.py
+test/test_models/test_form_data_multi_part.py
 test/test_models/test_generate_bundle_form.py
 test/test_models/test_goals.py
 test/test_models/test_hidden_field.py
@@ -672,12 +698,14 @@ test/test_models/test_make_default_lang_form.py
 test/test_models/test_message_entity.py
 test/test_models/test_metric.py
 test/test_models/test_mulitree_view.py
+test/test_models/test_multi_part.py
 test/test_models/test_multi_select_field.py
 test/test_models/test_open_folder_form.py
 test/test_models/test_page_container_form.py
 test/test_models/test_page_content_type.py
 test/test_models/test_page_form.py
 test/test_models/test_parameter_model.py
+test/test_models/test_parameterized_header.py
 test/test_models/test_permission.py
 test/test_models/test_permission_tab_field.py
 test/test_models/test_permission_view.py
