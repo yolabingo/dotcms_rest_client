@@ -1,4 +1,8 @@
-#!/bin/bash
+#!/bin/bash 
+
+DOTCMS_VERSION="23.01"
+DOTCMS_URL="https://dotcms-qa-lts2301.dotcms.site/api/openapi.yaml"
+
 export DOTCMS_OPENAPI_GENERATED="$(pwd)/openapi_generated"
 pushd /var/tmp
 if [ ! -d openapi-generator ]
@@ -14,7 +18,7 @@ then
 fi
 
 # fetch dotcms openapi spec
-curl -o dotcms_openapi.yaml https://dotcms-qa-lts2301.dotcms.site/api/openapi.yaml
+curl -o dotcms_openapi.yaml $DOTCMS_URL
 
 # generate python client
 java -jar modules/openapi-generator-cli/target/openapi-generator-cli.jar \
@@ -32,6 +36,9 @@ python -m venv dotcms_openapi_generated
 pip install -U pip
 pip install wheel
 cd $DOTCMS_OPENAPI_GENERATED
+
+sed -i '' 's/No description provided/DotCMS Rest Client/' setup.py
+sed -i '' "s/^VERSION.*/VERSION = '$DOTCMS_VERSION'/" setup.py
 python setup.py bdist_wheel
 pip wheel --no-deps -w ../dist . && rm -rf build dist
 deactivate
