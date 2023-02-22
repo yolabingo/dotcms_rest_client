@@ -38,6 +38,7 @@ pip install wheel
 cd $DOTCMS_OPENAPI_GENERATED
 
 sed -i '' 's/No description provided/DotCMS Rest Client/' setup.py
+sed -i '' 's/No description provided/DotCMS Rest Client/' README.md
 sed -i '' "s/^VERSION.*/VERSION = '$DOTCMS_VERSION'/" setup.py
 python setup.py bdist_wheel
 pip wheel --no-deps -w ../dist . && rm -rf build dist
